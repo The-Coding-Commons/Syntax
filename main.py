@@ -24,7 +24,7 @@ class SyntaxBot(commands.Bot):
 
 # Feel free to auto-discover extensions from the directory in the future
 # For now, they're hardcoded here.
-INITIAL_EXTENSIONS = ["extensions.example"]
+INITIAL_EXTENSIONS = ["extensions.example", "extensions.bump", "extensions.nolinks"]
 
 
 def main():
